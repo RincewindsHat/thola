@@ -2,11 +2,12 @@ package request
 
 import (
 	"context"
+	"regexp"
+	"strings"
+
 	"github.com/inexio/thola/internal/device"
 	"github.com/inexio/thola/internal/deviceclass/groupproperty"
 	"github.com/pkg/errors"
-	"regexp"
-	"strings"
 )
 
 // ReadInterfacesRequest
@@ -50,6 +51,7 @@ type InterfaceOptions struct {
 	IfTypeFilter          []string `yaml:"ifType_filter" json:"ifType_filter" xml:"ifType_filter"`
 	IfNameFilter          []string `yaml:"ifName_filter" json:"ifName_filter" xml:"ifName_filter"`
 	IfDescrFilter         []string `yaml:"ifDescr_filter" json:"ifDescr_filter" xml:"ifDescr_filter"`
+	IfDescrIncludeFilter  []string `yaml:"ifDescr_include_filter" json:"ifDescr_include_filter" xml:"ifDescr_include_filter"`
 	SNMPGetsInsteadOfWalk bool     `yaml:"snmp_gets_instead_of_walk" json:"snmp_gets_instead_of_walk" xml:"snmp_gets_instead_of_walk"`
 }
 
@@ -79,6 +81,9 @@ func (r *InterfaceOptions) getFilter() []groupproperty.Filter {
 	}
 	for _, f := range r.IfDescrFilter {
 		res = append(res, groupproperty.GetGroupFilter([]string{"ifDescr"}, f))
+	}
+	for _, f := range r.IfDescrIncludeFilter {
+		res = append(res, groupproperty.GetGroupFilter([]string{"ifDescrInclude"}, f))
 	}
 
 	if len(r.Values) > 0 {

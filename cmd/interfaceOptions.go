@@ -19,6 +19,7 @@ func buildInterfaceOptionsFlagSet() *flag.FlagSet {
 	fs.StringSlice("ifType-filter", []string{}, "Filter out interfaces which ifType equals the given types")
 	fs.StringSlice("ifName-filter", []string{}, "Filter out interfaces which ifName matches the given regex")
 	fs.StringSlice("ifDescr-filter", []string{}, "Filter out interfaces which ifDescription matches the given regex")
+	fs.StringSlice("ifDescr-include-filter", []string{}, "Filter for interfaces which ifDescription matches the given regex")
 
 	return fs
 }
@@ -56,6 +57,10 @@ func getInterfaceOptions() request.InterfaceOptions {
 	if err != nil {
 		log.Fatal().Err(err).Msg("ifDescr-filter needs to be a string")
 	}
+	ifDescrIncludeFilter, err := interfaceOptionsFlagSet.GetStringSlice("ifDescr-include-filter")
+	if err != nil {
+		log.Fatal().Err(err).Msg("ifDescr-include-filter needs to be a string")
+	}
 
 	return request.InterfaceOptions{
 		Values:                values,
@@ -64,6 +69,7 @@ func getInterfaceOptions() request.InterfaceOptions {
 		IfTypeFilter:          ifTypeFilter,
 		IfNameFilter:          ifNameFilter,
 		IfDescrFilter:         ifDescrFilter,
+		IfDescrIncludeFilter:  ifDescrIncludeFilter,
 		SNMPGetsInsteadOfWalk: snmpGetsInsteadOfWalk,
 	}
 }

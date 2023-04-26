@@ -2,10 +2,11 @@ package groupproperty
 
 import (
 	"context"
+	"testing"
+
 	"github.com/gosnmp/gosnmp"
 	"github.com/inexio/thola/internal/network"
 	"github.com/stretchr/testify/assert"
-	"testing"
 )
 
 func TestGroupFilter_ApplyPropertyGroups(t *testing.T) {
@@ -29,6 +30,33 @@ func TestGroupFilter_ApplyPropertyGroups(t *testing.T) {
 		propertyGroup{
 			"ifIndex": "2",
 			"ifDescr": "Mgmt",
+		},
+	}
+
+	assert.Equal(t, expected, filteredGroup)
+}
+
+func TestGroupFilter_IncludeApplyPropertyGroups(t *testing.T) {
+	filter := GetGroupFilter([]string{"ifDescrInclude"}, "Ethernet .*")
+
+	groups := PropertyGroups{
+		propertyGroup{
+			"ifIndex": "1",
+			"ifDescr": "Ethernet #1",
+		},
+		propertyGroup{
+			"ifIndex": "2",
+			"ifDescr": "Mgmt",
+		},
+	}
+
+	filteredGroup, err := filter.ApplyPropertyGroups(context.Background(), groups)
+	assert.NoError(t, err)
+
+	expected := PropertyGroups{
+		propertyGroup{
+			"ifIndex": "1",
+			"ifDescr": "Ethernet #1",
 		},
 	}
 
