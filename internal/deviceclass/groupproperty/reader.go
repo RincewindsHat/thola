@@ -3,6 +3,7 @@ package groupproperty
 import (
 	"context"
 	"fmt"
+
 	"github.com/inexio/thola/internal/network"
 	"github.com/inexio/thola/internal/value"
 	"github.com/mitchellh/mapstructure"
@@ -101,10 +102,6 @@ func Interface2Reader(i interface{}, parentReader Reader) (Reader, error) {
 }
 
 type propertyGroup map[string]interface{}
-
-func (g *propertyGroup) decode(destination interface{}) error {
-	return mapstructure.WeakDecode(g, destination)
-}
 
 func (g *propertyGroup) encode(data interface{}) error {
 	return mapstructure.WeakDecode(data, g)

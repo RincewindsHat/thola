@@ -2,12 +2,13 @@ package groupproperty
 
 import (
 	"context"
-	"github.com/inexio/thola/internal/value"
-	"github.com/pkg/errors"
-	"github.com/rs/zerolog/log"
 	"reflect"
 	"regexp"
 	"strconv"
+
+	"github.com/inexio/thola/internal/value"
+	"github.com/pkg/errors"
+	"github.com/rs/zerolog/log"
 )
 
 type Filter interface {
@@ -182,10 +183,8 @@ func (g *valueFilter) CheckMatch(value []string) bool {
 			return false
 		}
 	}
-	if len(value) < len(g.value) {
-		return false
-	}
-	return true
+
+	return (len(value) >= len(g.value))
 }
 
 func (g *valueFilter) AddException(value []string) Filter {

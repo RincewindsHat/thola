@@ -3,6 +3,8 @@ package database
 import (
 	"context"
 	"encoding/json"
+	"time"
+
 	"github.com/inexio/thola/internal/device"
 	"github.com/inexio/thola/internal/network"
 	"github.com/inexio/thola/internal/parser"
@@ -10,7 +12,6 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"
-	"time"
 )
 
 type sqlDatabase struct {
@@ -106,7 +107,7 @@ func (d *sqlDatabase) getEntry(ctx context.Context, dest interface{}, ip, dataTy
 	if err != nil {
 		return errors.Wrap(err, "db select failed")
 	}
-	if results == nil || len(results) == 0 {
+	if len(results) == 0 {
 		return tholaerr.NewNotFoundError("cache entry not found")
 	}
 
