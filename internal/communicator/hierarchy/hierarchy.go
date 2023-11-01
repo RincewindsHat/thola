@@ -1,7 +1,7 @@
 package hierarchy
 
 import (
-	"github.com/inexio/thola/internal/communicator"
+	"github.com/RincewindsHat/thola/internal/communicator"
 )
 
 // Hierarchy defines the hierarchy between multiple network device communicators.

@@ -2,9 +2,9 @@ package database
 
 import (
 	"context"
-	"github.com/inexio/thola/internal/device"
-	"github.com/inexio/thola/internal/network"
-	"github.com/inexio/thola/internal/tholaerr"
+	"github.com/RincewindsHat/thola/internal/device"
+	"github.com/RincewindsHat/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/tholaerr"
 	"github.com/rs/zerolog/log"
 )
 

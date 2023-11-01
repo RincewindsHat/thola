@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/inexio/go-monitoringplugin"
-	"github.com/inexio/thola/internal/device"
+	"github.com/RincewindsHat/thola/internal/device"
 )
 
 func (r *CheckHighAvailabilityRequest) process(ctx context.Context) (Response, error) {

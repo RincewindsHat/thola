@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 	"github.com/inexio/go-monitoringplugin"
-	"github.com/inexio/thola/internal/network"
-	"github.com/inexio/thola/internal/utility"
+	"github.com/RincewindsHat/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/utility"
 )
 
 func (r *CheckSNMPRequest) process(ctx context.Context) (Response, error) {

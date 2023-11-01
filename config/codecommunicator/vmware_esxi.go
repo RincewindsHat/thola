@@ -2,7 +2,7 @@ package codecommunicator
 
 import (
 	"context"
-	"github.com/inexio/thola/internal/device"
+	"github.com/RincewindsHat/thola/internal/device"
 )
 
 type vmwareESXiCommunicator struct {

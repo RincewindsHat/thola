@@ -2,7 +2,7 @@ package mapping
 
 import (
 	"github.com/google/go-cmp/cmp"
-	"github.com/inexio/thola/config"
+	"github.com/RincewindsHat/thola/config"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v2"
 	"io/ioutil"

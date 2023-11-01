@@ -5,7 +5,7 @@ import (
 	"crypto/tls"
 	"fmt"
 	"github.com/go-resty/resty/v2"
-	"github.com/inexio/thola/internal/tholaerr"
+	"github.com/RincewindsHat/thola/internal/tholaerr"
 	"github.com/pkg/errors"
 	"net/http"
 	"net/url"

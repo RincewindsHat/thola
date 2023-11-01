@@ -3,8 +3,8 @@ package groupproperty
 import (
 	"context"
 	"fmt"
-	"github.com/inexio/thola/internal/network"
-	"github.com/inexio/thola/internal/value"
+	"github.com/RincewindsHat/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/value"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"

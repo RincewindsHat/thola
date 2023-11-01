@@ -2,10 +2,10 @@ package request
 
 import (
 	"context"
-	"github.com/inexio/thola/internal/database"
-	"github.com/inexio/thola/internal/network"
-	"github.com/inexio/thola/internal/tholaerr"
-	"github.com/inexio/thola/internal/utility"
+	"github.com/RincewindsHat/thola/internal/database"
+	"github.com/RincewindsHat/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/tholaerr"
+	"github.com/RincewindsHat/thola/internal/utility"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"

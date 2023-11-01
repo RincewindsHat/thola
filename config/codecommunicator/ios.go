@@ -3,8 +3,8 @@ package codecommunicator
 import (
 	"context"
 	"github.com/inexio/go-monitoringplugin"
-	"github.com/inexio/thola/internal/device"
-	"github.com/inexio/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/device"
+	"github.com/RincewindsHat/thola/internal/network"
 	"github.com/pkg/errors"
 	"github.com/shopspring/decimal"
 	"strconv"

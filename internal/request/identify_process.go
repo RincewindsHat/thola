@@ -5,9 +5,9 @@ package request
 
 import (
 	"context"
-	"github.com/inexio/thola/internal/communicator/create"
-	"github.com/inexio/thola/internal/database"
-	"github.com/inexio/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/communicator/create"
+	"github.com/RincewindsHat/thola/internal/database"
+	"github.com/RincewindsHat/thola/internal/network"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"
 )

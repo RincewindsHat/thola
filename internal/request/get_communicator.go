@@ -5,11 +5,11 @@ package request
 
 import (
 	"context"
-	"github.com/inexio/thola/internal/communicator"
-	"github.com/inexio/thola/internal/communicator/create"
-	"github.com/inexio/thola/internal/database"
-	"github.com/inexio/thola/internal/device"
-	"github.com/inexio/thola/internal/tholaerr"
+	"github.com/RincewindsHat/thola/internal/communicator"
+	"github.com/RincewindsHat/thola/internal/communicator/create"
+	"github.com/RincewindsHat/thola/internal/database"
+	"github.com/RincewindsHat/thola/internal/device"
+	"github.com/RincewindsHat/thola/internal/tholaerr"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"
 )

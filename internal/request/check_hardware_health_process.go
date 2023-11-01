@@ -6,7 +6,7 @@ package request
 import (
 	"context"
 	"github.com/inexio/go-monitoringplugin"
-	"github.com/inexio/thola/internal/device"
+	"github.com/RincewindsHat/thola/internal/device"
 )
 
 func (r *CheckHardwareHealthRequest) process(ctx context.Context) (Response, error) {

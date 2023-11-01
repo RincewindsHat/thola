@@ -5,8 +5,8 @@ import (
 	"github.com/dgraph-io/badger/v2"
 	_ "github.com/go-sql-driver/mysql" //needed for sql driver
 	"github.com/gomodule/redigo/redis"
-	"github.com/inexio/thola/internal/device"
-	"github.com/inexio/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/device"
+	"github.com/RincewindsHat/thola/internal/network"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"

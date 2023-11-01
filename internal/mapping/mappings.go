@@ -1,8 +1,8 @@
 package mapping
 
 import (
-	"github.com/inexio/thola/config"
-	"github.com/inexio/thola/internal/tholaerr"
+	"github.com/RincewindsHat/thola/config"
+	"github.com/RincewindsHat/thola/internal/tholaerr"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 	"io/ioutil"

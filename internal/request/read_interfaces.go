@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/inexio/thola/internal/device"
-	"github.com/inexio/thola/internal/deviceclass/groupproperty"
+	"github.com/RincewindsHat/thola/internal/device"
+	"github.com/RincewindsHat/thola/internal/deviceclass/groupproperty"
 	"github.com/pkg/errors"
 )
 

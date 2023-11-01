@@ -2,10 +2,10 @@ package communicator
 
 import (
 	"context"
-	"github.com/inexio/thola/internal/component"
-	"github.com/inexio/thola/internal/device"
-	"github.com/inexio/thola/internal/deviceclass/groupproperty"
-	"github.com/inexio/thola/internal/tholaerr"
+	"github.com/RincewindsHat/thola/internal/component"
+	"github.com/RincewindsHat/thola/internal/device"
+	"github.com/RincewindsHat/thola/internal/deviceclass/groupproperty"
+	"github.com/RincewindsHat/thola/internal/tholaerr"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"
 )

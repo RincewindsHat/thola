@@ -6,8 +6,8 @@ package request
 import (
 	"context"
 	"github.com/inexio/go-monitoringplugin"
-	"github.com/inexio/thola/api/statistics"
-	"github.com/inexio/thola/internal/database"
+	"github.com/RincewindsHat/thola/api/statistics"
+	"github.com/RincewindsHat/thola/internal/database"
 	"time"
 )
 

@@ -2,11 +2,11 @@ package property
 
 import (
 	"context"
-	"github.com/inexio/thola/internal/device"
-	"github.com/inexio/thola/internal/deviceclass/condition"
-	"github.com/inexio/thola/internal/network"
-	"github.com/inexio/thola/internal/tholaerr"
-	"github.com/inexio/thola/internal/value"
+	"github.com/RincewindsHat/thola/internal/device"
+	"github.com/RincewindsHat/thola/internal/deviceclass/condition"
+	"github.com/RincewindsHat/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/tholaerr"
+	"github.com/RincewindsHat/thola/internal/value"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"

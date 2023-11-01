@@ -13,11 +13,11 @@
   ],
   "swagger": "2.0",
   "info": {
-    "description": "REST API for Thola.\n\nFor more information look at our Github : https://github.com/inexio/thola",
+    "description": "REST API for Thola.\n\nFor more information look at our Github : https://github.com/RincewindsHat/thola",
     "title": "Thola",
     "license": {
       "name": "BSD",
-      "url": "https://github.com/inexio/thola/blob/main/LICENSE"
+      "url": "https://github.com/RincewindsHat/thola/blob/main/LICENSE"
     },
     "version": "1.0.0"
   },
@@ -1047,13 +1047,13 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "BaseResponse": {
       "description": "BaseResponse defines attributes every response has.",
       "type": "object",
       "title": "BaseResponse",
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CPU": {
       "description": "CPU contains information per CPU.",
@@ -1070,7 +1070,7 @@
           "x-go-name": "Load"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "CPUComponent": {
       "description": "CPUComponent represents a CPU component.",
@@ -1085,7 +1085,7 @@
           "x-go-name": "CPUs"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "CheckCPULoadRequest": {
       "description": "CheckCPULoadRequest is the request struct for the check cpu load request.",
@@ -1113,7 +1113,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckDeviceRequest": {
       "description": "CheckDeviceRequest is the request struct for the check device request.",
@@ -1138,7 +1138,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckDiskRequest": {
       "description": "CheckDiskRequest is the request struct for the check disk request.",
@@ -1166,7 +1166,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckHardwareHealthRequest": {
       "description": "CheckHardwareHealthRequest is the request struct for the check hardware health request.",
@@ -1191,7 +1191,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckHighAvailabilityRequest": {
       "description": "CheckHighAvailabilityRequest is the request struct for the check high-availability request.",
@@ -1223,7 +1223,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckIdentifyRequest": {
       "description": "CheckIdentifyRequest is the request struct for the check identify request.",
@@ -1275,7 +1275,7 @@
           "x-go-name": "VendorDiffWarning"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckIdentifyResponse": {
       "description": "CheckIdentifyResponse is a response struct for the check identify request.",
@@ -1316,7 +1316,7 @@
           "x-go-name": "StatusCode"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckInterfaceMetricsRequest": {
       "description": "CheckInterfaceRequest is the request struct for the check interface metrics request.",
@@ -1386,7 +1386,7 @@
           "x-go-name": "Values"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckMemoryUsageRequest": {
       "description": "CheckMemoryUsageRequest is the request struct for the check memory usage request.",
@@ -1414,7 +1414,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckRequest": {
       "description": "CheckRequest is a generic response struct for the check request.",
@@ -1430,7 +1430,7 @@
           "x-go-name": "PrintPerformanceData"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckResponse": {
       "description": "CheckResponse is a generic response struct for the check plugin format.",
@@ -1461,7 +1461,7 @@
           "x-go-name": "StatusCode"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckSBCRequest": {
       "description": "CheckSBCRequest is the request struct for the check sbc request.",
@@ -1489,7 +1489,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckSNMPRequest": {
       "description": "CheckSNMPRequest is the request struct for the check snmp request.",
@@ -1514,7 +1514,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckSNMPResponse": {
       "description": "CheckSNMPResponse is a response struct for the check snmp request.",
@@ -1548,7 +1548,7 @@
           "$ref": "#/definitions/SNMPCredentials"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckServerRequest": {
       "description": "CheckServerRequest is the request struct for the check server request.",
@@ -1579,7 +1579,7 @@
           "$ref": "#/definitions/Thresholds"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckTholaServerRequest": {
       "description": "CheckTholaServerRequest is the request struct for the check thola server request.",
@@ -1600,7 +1600,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "CheckUPSRequest": {
       "description": "CheckUPSRequest is the request struct for the check ups request.",
@@ -1640,7 +1640,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ConnectionData": {
       "description": "ConnectionData includes all connection data for a device.",
@@ -1654,7 +1654,7 @@
           "$ref": "#/definitions/SNMPConnectionData"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/network"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/network"
     },
     "DWDMInterface": {
       "description": "DWDMInterface represents a DWDM interface.",
@@ -1693,7 +1693,7 @@
           "x-go-name": "UncorrectedFEC"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "Device": {
       "description": "Device represents a device and has the same structure as Response.\nResponse can possibly be removed and replaced by Device.",
@@ -1710,7 +1710,7 @@
           "$ref": "#/definitions/Properties"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "DeviceData": {
       "description": "DeviceData includes all data that can be used to contact a device",
@@ -1727,7 +1727,7 @@
           "example": "203.0.113.195"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "DiskComponent": {
       "description": "DiskComponent represents a disk component.",
@@ -1742,7 +1742,7 @@
           "x-go-name": "Storages"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "DiskComponentStorage": {
       "description": "DiskComponentStorage contains information per storage.",
@@ -1768,7 +1768,7 @@
           "x-go-name": "Used"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "EthernetLikeInterface": {
       "description": "EthernetLikeInterface represents an ethernet like interface.",
@@ -1866,7 +1866,7 @@
           "x-go-name": "EtherStatsCRCAlignErrors"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "HTTPConnectionData": {
       "description": "HTTPConnectionData includes all HTTP connection data for a device.",
@@ -1910,7 +1910,7 @@
           ]
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/network"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/network"
     },
     "HardwareHealthComponent": {
       "description": "HardwareHealthComponent represents hardware health information of a device.",
@@ -1949,7 +1949,7 @@
           "x-go-name": "Voltage"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "HardwareHealthComponentFan": {
       "description": "HardwareHealthComponentFan represents one fan of a device.",
@@ -1964,7 +1964,7 @@
           "$ref": "#/definitions/HardwareHealthComponentState"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "HardwareHealthComponentPowerSupply": {
       "description": "HardwareHealthComponentPowerSupply represents one power supply of a device.",
@@ -1979,11 +1979,11 @@
           "$ref": "#/definitions/HardwareHealthComponentState"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "HardwareHealthComponentState": {
       "type": "string",
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "HardwareHealthComponentTemperature": {
       "description": "HardwareHealthComponentTemperature represents one fan of a device.",
@@ -2003,7 +2003,7 @@
           "x-go-name": "Temperature"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "HardwareHealthComponentVoltage": {
       "description": "HardwareHealthComponentVoltage represents the voltage of a device.",
@@ -2023,7 +2023,7 @@
           "x-go-name": "Voltage"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "HighAvailabilityComponent": {
       "description": "HighAvailabilityComponent represents high availability information of a device.",
@@ -2043,11 +2043,11 @@
           "$ref": "#/definitions/HighAvailabilityComponentState"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "HighAvailabilityComponentState": {
       "type": "string",
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "IdentifyExpectationResult": {
       "type": "object",
@@ -2062,7 +2062,7 @@
           "x-go-name": "Got"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "IdentifyRequest": {
       "description": "IdentifyRequest is the request struct for the identify request.",
@@ -2079,7 +2079,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "IdentifyResponse": {
       "description": "IdentifyResponse is the response struct that is for identify requests.",
@@ -2096,7 +2096,7 @@
           "$ref": "#/definitions/Properties"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "Interface": {
       "description": "Interface represents all interface values which can be read.",
@@ -2314,7 +2314,7 @@
           "$ref": "#/definitions/VLANInformation"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "InterfaceOptions": {
       "description": "InterfaceOptions is the request struct for the options of an interface request.",
@@ -2363,7 +2363,7 @@
           "x-go-name": "Values"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "MemoryComponent": {
       "description": "MemoryComponent represents a Memory component",
@@ -2378,7 +2378,7 @@
           "x-go-name": "Pools"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "MemoryPool": {
       "description": "MemoryPool contains information per memory pool.",
@@ -2395,7 +2395,7 @@
           "x-go-name": "Usage"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "OpticalAmplifierInterface": {
       "description": "OpticalAmplifierInterface represents an optical amplifier interface.",
@@ -2426,7 +2426,7 @@
           "x-go-name": "TXPower"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "OpticalChannel": {
       "description": "OpticalChannel represents an optical channel.",
@@ -2448,7 +2448,7 @@
           "x-go-name": "TXPower"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "OpticalOPMInterface": {
       "description": "OpticalOPMInterface represents an optical opm interface.",
@@ -2476,7 +2476,7 @@
           "x-go-name": "RXPower"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "OpticalTransponderInterface": {
       "description": "OpticalTransponderInterface represents an optical transponder interface.",
@@ -2512,7 +2512,7 @@
           "x-go-name": "UncorrectedFEC"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "OutputError": {
       "description": "OutputError embeds all error messages which occur in requests on the API.",
@@ -2524,7 +2524,7 @@
           "x-go-name": "Error"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/tholaerr"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/tholaerr"
     },
     "OutputMessage": {
       "type": "object",
@@ -2612,7 +2612,7 @@
           "example": "Mikrotik"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "RadioInterface": {
       "description": "RadioInterface represents a radio interface.",
@@ -2640,7 +2640,7 @@
           "x-go-name": "MaxbitrateOut"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "Rate": {
       "description": "Rate encapsulates values which refer to a time span.",
@@ -2657,7 +2657,7 @@
           "x-go-name": "Value"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "ReadAvailableComponentsRequest": {
       "description": "ReadAvailableComponentsRequest is the request struct for the read available-components request.",
@@ -2674,7 +2674,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadAvailableComponentsResponse": {
       "description": "ReadAvailableComponentsResponse is the response struct for the read available-components response.",
@@ -2689,7 +2689,7 @@
           "x-go-name": "AvailableComponents"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadCPULoadRequest": {
       "description": "ReadCPULoadRequest is the request struct for the read cpu request.",
@@ -2706,7 +2706,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadCPULoadResponse": {
       "description": "ReadCPULoadResponse is the response struct for the read cpu response.",
@@ -2721,7 +2721,7 @@
           "x-go-name": "CPUs"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadCountInterfacesRequest": {
       "description": "ReadCountInterfacesRequest is the request struct for the read count-interfaces request.",
@@ -2738,7 +2738,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadCountInterfacesResponse": {
       "description": "ReadCountInterfacesResponse is the response struct for the read count-interfaces response.",
@@ -2751,7 +2751,7 @@
           "x-go-name": "Count"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadDiskRequest": {
       "description": "ReadDiskRequest is the request struct for the read disk request.",
@@ -2768,7 +2768,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadDiskResponse": {
       "description": "ReadDiskResponse is the response struct for the read disk response.",
@@ -2779,7 +2779,7 @@
           "$ref": "#/definitions/DiskComponent"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadHardwareHealthRequest": {
       "description": "ReadHardwareHealthRequest is the request struct for the read hardware health request.",
@@ -2796,7 +2796,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadHardwareHealthResponse": {
       "description": "ReadHardwareHealthResponse is the response struct for the read hardware health request.",
@@ -2807,7 +2807,7 @@
           "$ref": "#/definitions/HardwareHealthComponent"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadHighAvailabilityRequest": {
       "description": "ReadHighAvailabilityRequest is the request struct for the read high availability request.",
@@ -2824,7 +2824,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadHighAvailabilityResponse": {
       "description": "ReadHighAvailabilityResponse is the response struct for the read high availability request.",
@@ -2835,7 +2835,7 @@
           "$ref": "#/definitions/HighAvailabilityComponent"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadInterfacesRequest": {
       "description": "ReadInterfacesRequest is the request struct for the read interfaces request.",
@@ -2893,7 +2893,7 @@
           "x-go-name": "Values"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadInterfacesResponse": {
       "description": "ReadInterfacesResponse is the request struct for the read interfaces response.",
@@ -2908,7 +2908,7 @@
           "x-go-name": "Interfaces"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadMemoryUsageRequest": {
       "description": "ReadMemoryUsageRequest is the request struct for the read memory usage request.",
@@ -2925,7 +2925,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadMemoryUsageResponse": {
       "description": "ReadMemoryUsageResponse is the response struct for the read memory usage request.",
@@ -2940,7 +2940,7 @@
           "x-go-name": "MemoryPools"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadRequest": {
       "description": "ReadRequest is the response struct that is for read requests.",
@@ -2957,13 +2957,13 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadResponse": {
       "description": "ReadResponse is the response struct that is for read requests.",
       "type": "object",
       "title": "ReadResponse",
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadSBCRequest": {
       "description": "ReadSBCRequest is the request struct for the read sbc request.",
@@ -2980,7 +2980,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadSBCResponse": {
       "description": "ReadSBCResponse is the response struct for the read sbc response.",
@@ -2991,7 +2991,7 @@
           "$ref": "#/definitions/SBCComponent"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadServerRequest": {
       "description": "ReadServerRequest is the request struct for the read server request.",
@@ -3008,7 +3008,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadServerResponse": {
       "description": "ReadServerResponse is the response struct for the read server response.",
@@ -3019,7 +3019,7 @@
           "$ref": "#/definitions/ServerComponent"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadUPSRequest": {
       "description": "ReadUPSRequest is the request struct for the read ups request.",
@@ -3036,7 +3036,7 @@
           "x-go-name": "Timeout"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ReadUPSResponse": {
       "description": "ReadUPSResponse is the response struct for the read ups response.",
@@ -3047,7 +3047,7 @@
           "$ref": "#/definitions/UPSComponent"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/request"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/request"
     },
     "ResponseInfo": {
       "type": "object",
@@ -3095,7 +3095,7 @@
           "x-go-name": "Outbound"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "SBCComponent": {
       "description": "SBCComponent represents a SBC component.",
@@ -3152,7 +3152,7 @@
           "x-go-name": "TranscodingCapacity"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "SBCComponentAgent": {
       "description": "SBCComponentAgent contains information per agent. (Voice)",
@@ -3194,7 +3194,7 @@
           "x-go-name": "Status"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "SBCComponentRealm": {
       "description": "SBCComponentRealm contains information per realm. (Voice)",
@@ -3241,7 +3241,7 @@
           "x-go-name": "Status"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "SNMPConnectionData": {
       "description": "SNMPConnectionData includes all SNMP connection information for a device.",
@@ -3314,7 +3314,7 @@
           ]
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/network"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/network"
     },
     "SNMPCredentials": {
       "type": "object",
@@ -3342,7 +3342,7 @@
           "x-go-name": "Version"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/network"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/network"
     },
     "SNMPv3ConnectionData": {
       "description": "SNMPv3ConnectionData includes all SNMP v3 specific connection data.",
@@ -3392,7 +3392,7 @@
           "example": "user"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/network"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/network"
     },
     "ServerComponent": {
       "description": "ServerComponent represents a server component.",
@@ -3410,12 +3410,12 @@
           "x-go-name": "Users"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "Status": {
       "type": "string",
       "title": "Status represents an interface status.",
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "Thresholds": {
       "description": "Thresholds contains all threshold values",
@@ -3500,7 +3500,7 @@
           "x-go-name": "SystemVoltage"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "VLAN": {
       "description": "VLAN includes all information about a VLAN.",
@@ -3516,7 +3516,7 @@
           "x-go-name": "Status"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "VLANInformation": {
       "description": "VLANInformation includes all information regarding the VLANs of the interface.",
@@ -3531,13 +3531,13 @@
           "x-go-name": "VLANs"
         }
       },
-      "x-go-package": "github.com/inexio/thola/internal/device"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/device"
     },
     "value": {
       "description": "value represents a value that was read out from a device.",
       "type": "string",
       "title": "value",
-      "x-go-package": "github.com/inexio/thola/internal/value"
+      "x-go-package": "github.com/RincewindsHat/thola/internal/value"
     }
   },
   "securityDefinitions": {

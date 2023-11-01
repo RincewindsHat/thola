@@ -2,7 +2,7 @@ package request
 
 import (
 	"context"
-	"github.com/inexio/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/network"
 )
 
 // CheckTholaServerRequest

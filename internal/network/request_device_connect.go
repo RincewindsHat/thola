@@ -2,7 +2,7 @@ package network
 
 import (
 	"context"
-	"github.com/inexio/thola/internal/utility"
+	"github.com/RincewindsHat/thola/internal/utility"
 	"github.com/pkg/errors"
 )
 

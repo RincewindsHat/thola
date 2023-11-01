@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/inexio/thola/internal/device"
-	"github.com/inexio/thola/internal/request"
+	"github.com/RincewindsHat/thola/internal/device"
+	"github.com/RincewindsHat/thola/internal/request"
 	"github.com/spf13/cobra"
 )
 

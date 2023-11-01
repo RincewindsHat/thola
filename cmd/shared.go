@@ -3,10 +3,10 @@ package cmd
 import (
 	"context"
 	"fmt"
-	"github.com/inexio/thola/internal/network"
-	"github.com/inexio/thola/internal/parser"
-	"github.com/inexio/thola/internal/request"
-	"github.com/inexio/thola/internal/utility"
+	"github.com/RincewindsHat/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/parser"
+	"github.com/RincewindsHat/thola/internal/request"
+	"github.com/RincewindsHat/thola/internal/utility"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"
 )

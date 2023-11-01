@@ -2,10 +2,10 @@
 
 <img align="right" src="https://raw.githubusercontent.com/inexio/thola/main/doc/logo.png" width="256" alt="Thola">
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/inexio/thola)](https://goreportcard.com/report/github.com/inexio/thola)
+[![Go Report Card](https://goreportcard.com/badge/github.com/RincewindsHat/thola)](https://goreportcard.com/report/github.com/RincewindsHat/thola)
 [![GitHub code style](https://img.shields.io/badge/code%20style-uber--go-brightgreen)](https://github.com/uber-go/guide/blob/master/style.md)
-[![GitHub license](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/inexio/thola/blob/main/LICENSE)
-[![GitHub branch checks state](https://img.shields.io/github/checks-status/inexio/thola/main)](https://github.com/inexio/thola/actions)
+[![GitHub license](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/RincewindsHat/thola/blob/main/LICENSE)
+[![GitHub branch checks state](https://img.shields.io/github/checks-status/inexio/thola/main)](https://github.com/RincewindsHat/thola/actions)
 [![GoDoc doc](https://img.shields.io/badge/docs-online-brightgreen)](https://docs.thola.io)
 
 ## Description
@@ -17,7 +17,7 @@ It features a check mode which complies with the [monitoring plugins development
 
 You can download the latest compiled version for your platform under the "Releases" tab or build it yourself:
 
-    git clone https://github.com/inexio/thola.git
+    git clone https://github.com/RincewindsHat/thola.git
     cd thola
     go build
     

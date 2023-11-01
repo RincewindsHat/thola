@@ -6,7 +6,7 @@ package request
 import (
 	"context"
 	"fmt"
-	"github.com/inexio/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/network"
 	"github.com/pkg/errors"
 	"strconv"
 	"time"

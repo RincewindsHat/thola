@@ -2,11 +2,11 @@ package create
 
 import (
 	"context"
-	"github.com/inexio/thola/internal/communicator"
-	"github.com/inexio/thola/internal/communicator/hierarchy"
-	"github.com/inexio/thola/internal/deviceclass"
-	"github.com/inexio/thola/internal/network"
-	"github.com/inexio/thola/internal/tholaerr"
+	"github.com/RincewindsHat/thola/internal/communicator"
+	"github.com/RincewindsHat/thola/internal/communicator/hierarchy"
+	"github.com/RincewindsHat/thola/internal/deviceclass"
+	"github.com/RincewindsHat/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/tholaerr"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"
 	"strings"

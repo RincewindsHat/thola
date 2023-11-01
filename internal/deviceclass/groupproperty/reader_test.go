@@ -3,9 +3,9 @@ package groupproperty
 import (
 	"context"
 	"github.com/gosnmp/gosnmp"
-	"github.com/inexio/thola/internal/network"
-	"github.com/inexio/thola/internal/utility"
-	"github.com/inexio/thola/internal/value"
+	"github.com/RincewindsHat/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/utility"
+	"github.com/RincewindsHat/thola/internal/value"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"testing"

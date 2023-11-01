@@ -2,13 +2,13 @@
 //
 // REST API for Thola.
 //
-// For more information look at our Github : https://github.com/inexio/thola
+// For more information look at our Github : https://github.com/RincewindsHat/thola
 //
 //
 //     Schemes: http, https
 //     Host: localhost:8237
 //     Version: 1.0.0
-//     License: BSD https://github.com/inexio/thola/blob/main/LICENSE
+//     License: BSD https://github.com/RincewindsHat/thola/blob/main/LICENSE
 //     Consumes:
 //     - application/json
 //	   - application/xml

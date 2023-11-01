@@ -1,7 +1,7 @@
 package network
 
 import (
-	"github.com/inexio/thola/internal/tholaerr"
+	"github.com/RincewindsHat/thola/internal/tholaerr"
 	"sync"
 )
 

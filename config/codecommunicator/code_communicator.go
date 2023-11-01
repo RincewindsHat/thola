@@ -3,10 +3,10 @@ package codecommunicator
 import (
 	"context"
 	"fmt"
-	"github.com/inexio/thola/internal/communicator"
-	"github.com/inexio/thola/internal/device"
-	"github.com/inexio/thola/internal/deviceclass/groupproperty"
-	"github.com/inexio/thola/internal/tholaerr"
+	"github.com/RincewindsHat/thola/internal/communicator"
+	"github.com/RincewindsHat/thola/internal/device"
+	"github.com/RincewindsHat/thola/internal/deviceclass/groupproperty"
+	"github.com/RincewindsHat/thola/internal/tholaerr"
 	"github.com/pkg/errors"
 )
 

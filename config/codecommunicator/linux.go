@@ -2,9 +2,9 @@ package codecommunicator
 
 import (
 	"context"
-	"github.com/inexio/thola/internal/device"
-	"github.com/inexio/thola/internal/mapping"
-	"github.com/inexio/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/device"
+	"github.com/RincewindsHat/thola/internal/mapping"
+	"github.com/RincewindsHat/thola/internal/network"
 	"github.com/pkg/errors"
 )
 

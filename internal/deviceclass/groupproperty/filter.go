@@ -2,7 +2,7 @@ package groupproperty
 
 import (
 	"context"
-	"github.com/inexio/thola/internal/value"
+	"github.com/RincewindsHat/thola/internal/value"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"
 	"reflect"

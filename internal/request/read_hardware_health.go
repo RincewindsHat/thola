@@ -1,6 +1,6 @@
 package request
 
-import "github.com/inexio/thola/internal/device"
+import "github.com/RincewindsHat/thola/internal/device"
 
 // ReadHardwareHealthRequest
 //

@@ -3,9 +3,9 @@ package codecommunicator
 import (
 	"context"
 	"fmt"
-	"github.com/inexio/thola/internal/device"
-	"github.com/inexio/thola/internal/deviceclass/groupproperty"
-	"github.com/inexio/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/device"
+	"github.com/RincewindsHat/thola/internal/deviceclass/groupproperty"
+	"github.com/RincewindsHat/thola/internal/network"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"
 	"github.com/shopspring/decimal"

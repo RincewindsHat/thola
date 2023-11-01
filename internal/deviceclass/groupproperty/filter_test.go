@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/gosnmp/gosnmp"
-	"github.com/inexio/thola/internal/network"
+	"github.com/RincewindsHat/thola/internal/network"
 	"github.com/stretchr/testify/assert"
 )
 
