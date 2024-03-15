@@ -1,4 +1,4 @@
-module github.com/RincewinwsHat/thola
+module github.com/RincewindsHat/thola
 
 go 1.20
 
