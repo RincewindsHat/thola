@@ -1,14 +1,13 @@
 //go:build !client
-// +build !client
 
 package request
 
 import (
 	"context"
 	"fmt"
-	"github.com/inexio/go-monitoringplugin"
 	"github.com/RincewindsHat/thola/internal/device"
 	"github.com/RincewindsHat/thola/internal/utility"
+	"github.com/inexio/go-monitoringplugin"
 	"github.com/pkg/errors"
 )
 

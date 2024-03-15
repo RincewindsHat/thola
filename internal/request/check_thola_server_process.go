@@ -1,13 +1,12 @@
 //go:build !client
-// +build !client
 
 package request
 
 import (
 	"context"
-	"github.com/inexio/go-monitoringplugin"
 	"github.com/RincewindsHat/thola/api/statistics"
 	"github.com/RincewindsHat/thola/internal/database"
+	"github.com/inexio/go-monitoringplugin"
 	"time"
 )
 

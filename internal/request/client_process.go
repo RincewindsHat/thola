@@ -1,16 +1,15 @@
 //go:build client
-// +build client
 
 package request
 
 import (
 	"context"
 	"fmt"
-	"github.com/inexio/go-monitoringplugin"
 	"github.com/RincewindsHat/thola/doc"
 	"github.com/RincewindsHat/thola/internal/network"
 	"github.com/RincewindsHat/thola/internal/parser"
 	"github.com/RincewindsHat/thola/internal/tholaerr"
+	"github.com/inexio/go-monitoringplugin"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 	"strings"
