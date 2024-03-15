@@ -1,12 +1,11 @@
 //go:build !client
-// +build !client
 
 package request
 
 import (
 	"context"
-	"github.com/inexio/go-monitoringplugin"
 	"github.com/RincewindsHat/thola/internal/device"
+	"github.com/inexio/go-monitoringplugin"
 )
 
 func (r *CheckHardwareHealthRequest) process(ctx context.Context) (Response, error) {
