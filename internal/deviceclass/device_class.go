@@ -16,8 +16,8 @@ import (
 	"github.com/RincewindsHat/thola/internal/utility"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
+	"io"
 	"io/fs"
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
@@ -288,7 +288,7 @@ func yamlFile2Hierarchy(file fs.File, directory string, parentDeviceClass *devic
 		return hierarchy.Hierarchy{}, errors.New("only yaml files are allowed for this function")
 	}
 
-	contents, err := ioutil.ReadAll(file)
+	contents, err := io.ReadAll(file)
 	if err != nil {
 		return hierarchy.Hierarchy{}, errors.Wrap(err, "failed to read file")
 	}
