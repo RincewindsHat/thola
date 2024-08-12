@@ -9,7 +9,7 @@ require (
 	github.com/gocarina/gocsv v0.0.0-20231116093920-b87c2d0e983a
 	github.com/gomodule/redigo v1.9.2
 	github.com/google/go-cmp v0.6.0
-	github.com/gosnmp/gosnmp v1.37.0
+	github.com/gosnmp/gosnmp v1.38.0
 	github.com/inexio/go-monitoringplugin v1.0.13
 	github.com/jmoiron/sqlx v1.4.0
 	github.com/labstack/echo/v4 v4.12.0
