@@ -16,8 +16,8 @@ require (
 	github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/pkg/errors v0.9.1
-	github.com/rs/xid v1.5.0
-	github.com/rs/zerolog v1.33.0
+	github.com/rs/xid v1.6.0
+	github.com/rs/zerolog v1.34.0
 	github.com/schollz/progressbar/v3 v3.5.1
 	github.com/shopspring/decimal v1.4.0
 	github.com/spf13/cobra v1.8.1
